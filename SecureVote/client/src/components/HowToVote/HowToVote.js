@@ -74,18 +74,13 @@ const HowToVote = () => {
 
                             <Link to="/voterId">
 
-                            <button class="btn-68">Button</button>
+                            <button class="btn-68">Next</button>
 
-                            </Link>    
-
-                            
-
-                        
+                             
 
                             
 						
-					
-
+						    </Link>
 
 						</FormWrapper>
 						{error && (

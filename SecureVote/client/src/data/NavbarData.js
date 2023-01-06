@@ -17,14 +17,5 @@ export const data = [
 		to: '/formOrg',
 		text: 'Org',
 	},
-	{
-		to: '/face',
-		text: 'fc',
-	},
-	{
-		to: '/adhar',
-		text: 'adhar id',
-	},
-	
 	
 ];

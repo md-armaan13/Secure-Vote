@@ -27,21 +27,10 @@ export const footerSocialData = [
 ];
 
 export const footerData = [
-	// {
-	// 	title: 'create',
-	// 	links: ['web', 'android', 'blockchain', 'others'],
-	// },
-	// {
-	// 	title: 'connect',
-	// 	links: ['Colleagues', 'Alumni', 'Dean', 'To me'],
-	// },
-	// {
-	// 	title: 'collaborate',
-	// 	links: ['project 1', 'project 2', 'project 3', 'project 4'],
-	// },
+
 	{
 		title: 'Developers',
-		links: ['Aashish Gupta', 'Md. Armaan Ansari', 'Aryan Mishra', 'Shreyash Srivastava'],
+		links: ['Aashish Gupta', 'Armaan Ansari', 'Divyanshu', 'Sion ','Ayushi'],
 	},
 	{
 		title: 'T & C',
