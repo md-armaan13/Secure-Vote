@@ -1,7 +1,7 @@
 import React from 'react';
 import { Heading } from '../../globalStyles';
 import { IconContext } from 'react-icons/lib';
-import './voteridStyle';
+import './voterIdStyle';
 
 
 
@@ -12,7 +12,7 @@ import {
     FaceCardInfo,
     FaceCard,
     Button,
-} from './voteridStyle';
+} from './voterIdStyle';
 
 import Particle2 from '../Particle2';
 
