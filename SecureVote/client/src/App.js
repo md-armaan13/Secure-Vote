@@ -15,8 +15,7 @@ import Winner from './components/Winner/Winner';
 import HowToVote from './components/HowToVote/HowToVote';
 import Face from './pages/Face'
 import Adhar from './components/AdharID/Adhar';
-import Voter from './components/voterId/voterId';
-
+import Voter from './components/voterId/voterId'
 // import Voter from './components/voterID/voterid'
 
 
@@ -36,8 +35,7 @@ function App() {
 				<Route exact path="/Winner" element ={<Winner/>} />
 				<Route exact path="/face" element ={<Face/>} />
 				<Route exact path="/adhar" element ={<Adhar/>} />
-				<Route exact path="/voterId" element={<Voter/>} />
-			
+				<Route exact path="/voterId" element={<Voter/> } />
 
 			</Routes>
 			<Footer />

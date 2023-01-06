@@ -1,8 +1,6 @@
 import React from 'react';
 import { Heading } from '../../globalStyles';
 import { IconContext } from 'react-icons/lib';
-import './nft.css'
-import './nftlink.css'
 import { WebcamCapture } from '../Webcam/Webcam';
 import './FCButton.css';
 
