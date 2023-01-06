@@ -26,7 +26,7 @@ export const data = [
 		text: 'adhar id',
 	},
 	{
-		to: '/voterid',
+		to: '/voterId',
 		text: 'voter id',
 	},
 ];
