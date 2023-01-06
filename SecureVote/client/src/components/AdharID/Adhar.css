@@ -1,0 +1,28 @@
+#file{
+    display: none;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.upload{
+    margin-left: 80px;
+    height: 300px;
+    width: 300px;
+    border-radius: 4%;
+    cursor: pointer;
+}
+
+.uploaded{
+    height: 300px;
+    width: 340px;
+    border-radius: 4%;
+}
+.divv{
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
