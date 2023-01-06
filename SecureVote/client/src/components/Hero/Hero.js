@@ -35,9 +35,15 @@ const Hero = () => {
 				<b>A platform where you can vote without any discrepancy and corruption.</b>
 				</HeroText1>
 				<ButtonWrapper>
+
+					<Link to="howtovote">
+						<Button>Vote Here</Button>
+					</Link>
+
 					<Link to="signup">
 						<Button>Sign Up</Button>
 					</Link>
+
 					<HeroButton onClick={connectWithMetamask}> {hasConnected ? "Connected" : "Connect your wallet"}</HeroButton>
 				</ButtonWrapper>
 			</Container>
