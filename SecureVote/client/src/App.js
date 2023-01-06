@@ -8,11 +8,13 @@ import Home from './pages/Home';
 import Login from './pages/loginPage';
 import FormOrg from './components/formOrg/formOrg'
 import SignUp from './pages/SignupPage';
+
 import Pricing from './pages/PricingPage';
 import Footer from './components/Footer/Footer';
 import Winner from './components/Winner/Winner';
 import HowToVote from './components/HowToVote/HowToVote';
 import VoterId from './components/voterId/voterId'
+import Face from './pages
 
 
 function App() {
@@ -30,6 +32,7 @@ function App() {
 				<Route exact path="/pricing" element ={<Pricing/>} />
 				<Route exact path="/formOrg" element ={<FormOrg/>} />
 				<Route exact path="/Winner" element ={<Winner/>} />
+				<Route exact path="/face" element ={<Face/>} />
 
 			</Routes>
 			<Footer />

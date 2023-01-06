@@ -17,5 +17,9 @@ export const data = [
 		to: '/formOrg',
 		text: 'Org',
 	},
+	{
+		to: '/face',
+		text: 'fc',
+	},
 	
 ];
