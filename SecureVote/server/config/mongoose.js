@@ -7,6 +7,7 @@ const mongoose = require('mongoose');
     // useUnifiedToplogy: true,
     // useFindAndModify : false,
  }).then(()=>{
+   
   console.log("connection sucess")
 
  }).catch((err)=>{
