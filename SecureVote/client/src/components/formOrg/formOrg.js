@@ -23,7 +23,7 @@ const Form = () => {
 	const [name, setName] = useState('');
 	const [about, setAbout] = useState('');
 	const [description, setDescription] = useState('');
-	// const [email, setEmail] = useState('');
+	const [date, setDate] = useState('');
 	// const [password, setPassword] = useState('');
 	// const [confirmPass, setConfirmPass] = useState('');
 	const [error, setError] = useState(null);
@@ -54,10 +54,12 @@ const Form = () => {
         console.log(name);
         console.log(about);
         console.log(description);
+		console.log(date);
 
 		setName('');
 		setAbout('');
 		setDescription('');
+		setDate('');
 		// setEmail('');
 		// setPassword('');
 		// setConfirmPass('');
@@ -74,6 +76,7 @@ const Form = () => {
 		{ label: 'Name', value: name, onChange: (e) => setName(e.target.value), type: 'text' },
 		{ label: 'About', value: about, onChange: (e) => setAbout(e.target.value), type: 'text' },
 		{ label: 'description', value: description, onChange: (e) => setDescription(e.target.value), type: 'text' },
+		{ label: 'date', value: date, onChange: (e) => setDate(e.target.value), type: 'datetime-local' },
 		// {
 		// 	label: 'Password',
 		// 	value: password,

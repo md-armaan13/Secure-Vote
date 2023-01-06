@@ -1,6 +1,9 @@
 #file{
     display: none;
 }
+#filee{
+    display: none;
+}
 .main{
     display: flex;
     flex-direction: row;
