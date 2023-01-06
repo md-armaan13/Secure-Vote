@@ -3,7 +3,7 @@ import { Heading } from '../../globalStyles';
 import { IconContext } from 'react-icons/lib';
 import './AdharStyle';
 
-
+import { Link } from 'react-router-dom';
 
 import {
     FaceSection,
@@ -48,6 +48,8 @@ function Adhar() {
                     <br />
 
                 </FaceWrapper>
+
+                <Link to="/face">
                 <div className='btn-div'>
                 <button class="btn-17">
                 <span class="text-container">
@@ -55,6 +57,9 @@ function Adhar() {
                 </span>
                 </button>
                 </div>
+
+                </Link>
+
             </FaceSection>
 
         </IconContext.Provider>

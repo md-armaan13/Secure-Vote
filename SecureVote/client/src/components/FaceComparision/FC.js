@@ -6,6 +6,7 @@ import './nftlink.css'
 import { WebcamCapture } from '../Webcam/Webcam';
 import './FCButton.css';
 
+import { Link } from 'react-router-dom';
 
 // import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 
@@ -50,10 +51,21 @@ function FC() {
                     <br />
 
                 </FaceWrapper>
+
+                <Link to="/pricing">
                 <div className='btn-div'>
                 <button class="btn-68">Proceed</button>
 
-</div>
+                </div>
+
+                
+
+                           
+
+                            </Link> 
+
+
+
             </FaceSection>
 
         </IconContext.Provider>
