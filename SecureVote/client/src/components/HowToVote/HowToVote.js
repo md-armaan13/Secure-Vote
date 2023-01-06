@@ -13,6 +13,8 @@ import {
 	FormTitle,
 } from './HowToVoteStyle';
 import { Link } from 'react-router-dom';
+import './button68.css';
+
 import { Container } from '../../globalStyles';
 // import validateForm from './validateForm';
 import Particle from '../Particle';
@@ -72,11 +74,7 @@ const HowToVote = () => {
 
                             <Link to="voterid">
 
-                            <button class="btn-17">
-                            <span class="text-container">
-                                <span class="text">Button</span>
-                            </span>
-                            </button>
+                            <button class="btn-68">Button</button>
 
                             </Link>    
 
