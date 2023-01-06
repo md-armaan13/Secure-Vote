@@ -37,6 +37,8 @@ function FC() {
                 <FaceWrapper>
                     <Heading >Face Comparsion</Heading>
                     <br />
+                    <br/>
+                    <br/>
 
                     <FaceContainer>
                         <FaceCard >
@@ -46,19 +48,11 @@ function FC() {
                         </FaceCard>
                     </FaceContainer>
                     <br />
-                    <br />
-                    <br /> <br /> <br /> <br /><br /><br /><br />
-                    <br />
-                    <br />
-                    <br />
 
                 </FaceWrapper>
                 <div className='btn-div'>
-                <button class="btn-17">
-  <span class="text-container">
-    <span class="text">Proceed</span>
-  </span>
-</button>
+                <button class="btn-68">Proceed</button>
+
 </div>
             </FaceSection>
 

@@ -1,13 +1,13 @@
-.btn-17,
-.btn-17 *,
-.btn-17 :after,
-.btn-17 :before,
-.btn-17:after,
-.btn-17:before {
+.btn-68,
+.btn-68 *,
+.btn-68 :after,
+.btn-68 :before,
+.btn-68:after,
+.btn-68:before {
   border: 0 solid;
   box-sizing: border-box;
 }
-.btn-17 {
+.btn-68 {
   -webkit-tap-highlight-color: transparent;
   -webkit-appearance: button;
   background-color: #000;
@@ -18,108 +18,121 @@
     Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
     Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   font-size: 100%;
-  font-weight: 900;
   line-height: 1.5;
   margin: 0;
-  justify-items: center;
   -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
   padding: 0;
-  text-transform: uppercase;
 }
-.btn-17:disabled {
+.btn-68:disabled {
   cursor: default;
 }
-.btn-17:-moz-focusring {
+.btn-68:-moz-focusring {
   outline: auto;
 }
-.btn-17 svg {
+.btn-68 svg {
   display: block;
   vertical-align: middle;
 }
-.btn-17 [hidden] {
+.btn-68 [hidden] {
   display: none;
 }
-.btn-17 {
-  border-radius: 0px;
-  border-width: 2px;
-  padding: 0.8rem 3rem;
-  width: 20%;
-  margin-left: 10px;
-
-}
-.btn-17,
-.btn-17 .text-container {
-  overflow: hidden;
-  position: relative;
-}
-.btn-17 .text-container {
+.btn-68 {
+  box-shadow: inset 0 0 0 2px #fff;
+  box-sizing: border-box;
   display: block;
-  mix-blend-mode: difference;
-}
-.btn-17 .text {
-  display: block;
+  font-weight: 900;
+  padding: 1.2rem 3rem;
   position: relative;
+  text-transform: uppercase;
+  transition: color 0.1s linear;
 }
-.btn-17:hover .text {
-  -webkit-animation: move-up-alternate 0.3s forwards;
-  animation: move-up-alternate 0.3s forwards;
-  color: white;
-}
-@-webkit-keyframes move-up-alternate {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(80%);
-  }
-  51% {
-    transform: translateY(-80%);
-  }
-  to {
-    transform: translateY(0);
-  }
-}
-@keyframes move-up-alternate {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(80%);
-  }
-  51% {
-    transform: translateY(-80%);
-  }
-  to {
-    transform: translateY(0);
-  }
-}
-.btn-17:after,
-.btn-17:before {
-  --skew: 0.2;
-  background: #fff;
+.btn-68:after,
+.btn-68:before {
   content: "";
-  display: block;
-  height: 102%;
-  left: calc(-50% - 50% * var(--skew));
-  pointer-events: none;
+  height: 0;
   position: absolute;
-  top: -104%;
-  transform: skew(calc(150deg * var(--skew))) translateY(var(--progress, 0));
-  transition: transform 0.2s ease;
-  width: 100%;
+  width: 0;
 }
-.btn-17:after {
-  --progress: 0%;
-  left: calc(50% + 50% * var(--skew));
-  top: 102%;
+.btn-68:before {
+  border-right: var(--border);
+  border-top: var(--border);
+  left: 0;
+  top: 0;
+}
+.btn-68:hover:before {
+  --border: 4px solid #000;
+  -webkit-animation: border-top-and-right 1s forwards;
+  animation: border-top-and-right 1s forwards;
+}
+.btn-68:after {
+  border-bottom: var(--border);
+  border-left: var(--border);
+  bottom: 0;
+  right: 0;
   z-index: -1;
 }
-.btn-17:hover:before {
-  --progress: 100%;
+.btn-68:hover:after {
+  --border: 4px solid #000;
+  -webkit-animation: border-bottom-and-left 1s forwards;
+  animation: border-bottom-and-left 1s forwards;
 }
-.btn-17:hover:after {
-  --progress: -102%;
+@-webkit-keyframes border-top-and-right {
+  0% {
+    height: 0;
+    width: 0;
+  }
+  50% {
+    height: 0;
+    width: 100%;
+  }
+  to {
+    height: 100%;
+    width: 100%;
+  }
 }
+@keyframes border-top-and-right {
+  0% {
+    height: 0;
+    width: 0;
+  }
+  50% {
+    height: 0;
+    width: 100%;
+  }
+  to {
+    height: 100%;
+    width: 100%;
+  }
+}
+@-webkit-keyframes border-bottom-and-left {
+  0% {
+    height: 0;
+    width: 0;
+  }
+  50% {
+    height: 0;
+    width: 100%;
+  }
+  to {
+    height: 100%;
+    width: 100%;
+  }
+}
+@keyframes border-bottom-and-left {
+  0% {
+    height: 0;
+    width: 0;
+  }
+  50% {
+    height: 0;
+    width: 100%;
+  }
+  to {
+    height: 100%;
+    width: 100%;
+  }
+}
+
 .btn-div{
     display: flex;
     justify-content: right;

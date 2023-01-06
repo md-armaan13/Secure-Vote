@@ -60,7 +60,7 @@ export const FaceCardInfo = styled.div`
 	text-decoration: none;
 	border-radius: 4px;
 	height: 100%;
-	opacity: 1;
+	opacity: 2;
 	display: flex;
 	flex-direction: column;
 	padding: 24px;
