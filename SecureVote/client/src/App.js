@@ -14,7 +14,7 @@ import Footer from './components/Footer/Footer';
 import Winner from './components/Winner/Winner';
 import HowToVote from './components/HowToVote/HowToVote';
 import VoterId from './components/voterId/voterId'
-import Face from './pages
+import Face from './pages/Face'
 
 
 function App() {
