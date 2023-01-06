@@ -21,5 +21,12 @@ export const data = [
 		to: '/face',
 		text: 'fc',
 	},
-	
+	{
+		to: '/adhar',
+		text: 'adhar id',
+	},
+	{
+		to: '/voterid',
+		text: 'voter id',
+	},
 ];

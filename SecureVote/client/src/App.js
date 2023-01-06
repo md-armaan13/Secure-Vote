@@ -13,8 +13,14 @@ import Pricing from './pages/PricingPage';
 import Footer from './components/Footer/Footer';
 import Winner from './components/Winner/Winner';
 import HowToVote from './components/HowToVote/HowToVote';
+<<<<<<< Updated upstream
 import VoterId from './components/voterId/voterId'
 import Face from './pages/Face'
+=======
+import Face from './pages/Face'
+import Adhar from './components/AdharID/Adhar';
+import Voter from './components/VoterID/voterid'
+>>>>>>> Stashed changes
 
 
 function App() {
@@ -27,12 +33,13 @@ function App() {
 				<Route exact path="/" element={<Home/>} />
 				<Route exact path="/login" element={<Login/>} />
 				<Route exact path="/signup" element={<SignUp/>} />
-				<Route exact path="/voterid" element={<VoterId/>} />
 				<Route exact path="/HowToVote" element={<HowToVote/>} />
 				<Route exact path="/pricing" element ={<Pricing/>} />
 				<Route exact path="/formOrg" element ={<FormOrg/>} />
 				<Route exact path="/Winner" element ={<Winner/>} />
 				<Route exact path="/face" element ={<Face/>} />
+				<Route exact path="/adhar" element ={<Adhar/>} />
+				<Route exact path="/voterid" element={<Voter/>} />
 
 			</Routes>
 			<Footer />
