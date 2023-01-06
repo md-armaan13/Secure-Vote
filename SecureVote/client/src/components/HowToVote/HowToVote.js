@@ -60,6 +60,21 @@ const HowToVote = () => {
 					<FormColumn small>
 						<FormTitle>How To Vote</FormTitle>
 						<FormWrapper >
+                           <p>
+                           <ul>  To cast your valuable vote you have to follow the below listed steps:<br/><br/><br/>
+<li/> On the landing page click on VOTE HERE <br/><br/>
+<li/>
+A window appears that asks for your voter id verification appears. Upload the photos of your voter id card so that verification can be done <br/><br/>
+<li/>
+After completing the voter id verification, click on PROCEED. A new window for Aadhar card verification appears, upload the photos of your aadhar card for verification<br/><br/>
+<li/>
+When the aadhar card is verified, click on PROCEED after which a window will appear for face detection. Allow your camera and click a photograph of yours.<br/><br/>
+<li/>
+The photograph will be matched with the existing database and after clicking PROCEED you would be allowed to vote
+A screen showing the information of the parties will appear, on which you can cast your vote and claim your NFT.
+<br/><br/>
+</ul>
+                            </p>
 							{/* {formData.map((el, index) => (
 								<FormInputRow key={index}>
 									<FormLabel>{el.label}</FormLabel>
