@@ -1,7 +1,7 @@
 import React from 'react';
 import { Heading } from '../../globalStyles';
 import { IconContext } from 'react-icons/lib';
-import './voteridStyle';
+import './AdharStyle';
 
 
 
@@ -12,12 +12,12 @@ import {
     FaceCardInfo,
     FaceCard,
     Button,
-} from './voteridStyle';
+} from './AdharStyle';
 
 import Particle2 from '../Particle2';
 
 
-function Voter() {
+function Adhar() {
     return (
 
         <IconContext.Provider value={{ color: '#a9b3c1', size: '1rem' }}>
@@ -25,7 +25,7 @@ function Voter() {
             <FaceSection id="Face">
 
                 <FaceWrapper>
-                    <Heading >Voter ID</Heading>
+                    <Heading >Adhar ID</Heading>
                     <br />
 
                     <FaceContainer>
@@ -62,4 +62,4 @@ function Voter() {
 
     );
 }
-export default Voter;
+export default Adhar;
