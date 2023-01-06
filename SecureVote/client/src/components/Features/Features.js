@@ -71,7 +71,7 @@ const Features = () => {
 					
 				</FeatureWrapper>
 				<br/>
-				<br/>
+				{/* <br/>
 				<br/>
 				<br/>
 				<center>
@@ -82,7 +82,7 @@ const Features = () => {
 					</span>
 					
 				</button>
-				</center>
+				</center> */}
 
 			</Container>
 		</Section>

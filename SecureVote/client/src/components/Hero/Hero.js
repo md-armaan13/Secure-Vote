@@ -36,15 +36,16 @@ const Hero = () => {
 				</HeroText1>
 				<ButtonWrapper>
 
-					<Link to="howtovote">
+				<Link to="/voterId">
 						<Button>Vote Here</Button>
-					</Link>
+						</Link>
 
-					<Link to="signup">
+					{/* <Link to="signup">
 						<Button>Sign Up</Button>
+					</Link> */}
+					<Link to="howtovote">
+					<HeroButton > How To Vote </HeroButton>
 					</Link>
-
-					<HeroButton onClick={connectWithMetamask}> {hasConnected ? "Connected" : "Connect your wallet"}</HeroButton>
 				</ButtonWrapper>
 			</Container>
 		</HeroSection>
