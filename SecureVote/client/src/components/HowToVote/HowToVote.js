@@ -72,13 +72,17 @@ const HowToVote = () => {
 								</FormInputRow>
 							))} */}
 
-                            <Link to="voterid">
+                            <Link to="/voterId">
 
                             <button class="btn-68">Button</button>
 
                             </Link>    
 
+                            
 
+                        
+
+                            
 						
 					
 

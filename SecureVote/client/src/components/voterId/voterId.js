@@ -1,9 +1,10 @@
 import React from 'react';
 import { Heading } from '../../globalStyles';
 import { IconContext } from 'react-icons/lib';
+
 import './voterIdStyle';
 
-
+import { Link } from 'react-router-dom';
 
 import {
     FaceSection,
@@ -48,13 +49,24 @@ function Voter() {
                     <br />
 
                 </FaceWrapper>
+
+                <Link to="/adhar">
+
                 <div className='btn-div'>
+
                 <button class="btn-17">
-                <span class="text-container">
-                <span class="text">Proceed</span>
-                </span>
+                    <span class="text-container">
+                    <span class="text">Proceed</span>
+                    </span>
                 </button>
+
                 </div>
+                </Link> 
+
+
+
+
+
             </FaceSection>
 
         </IconContext.Provider>
