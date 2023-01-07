@@ -211,9 +211,9 @@ const getEthereumObject = () => window.ethereum;
 							<PricingCard >
 							<img src={Img3} width="279px" height="146px" alt="" />
 								<PricingCardInfo>
-									<PricingCardPlan>{isName}</PricingCardPlan>
-									<PricingCardCost>{isAbout}</PricingCardCost>
-									<PricingCardText>{isDescription}</PricingCardText>
+									<PricingCardPlan>BJP</PricingCardPlan>
+									<PricingCardCost>Modi</PricingCardCost>
+									<PricingCardText>we will remove article 370A and will ensure everyone's safety</PricingCardText>
 									
 									
      
@@ -229,9 +229,9 @@ const getEthereumObject = () => window.ethereum;
 							<PricingCard >
 							<img src={Img1} width="279px" height="146px" alt="" />
 								<PricingCardInfo>
-									<PricingCardPlan>{isName1}</PricingCardPlan>
-									<PricingCardCost>{isAbout1}</PricingCardCost>
-									<PricingCardText>{isDescription1}</PricingCardText>
+									<PricingCardPlan>Congress</PricingCardPlan>
+									<PricingCardCost>Rahul gandhi</PricingCardCost>
+									<PricingCardText>we will ensure the safty of women and all the basic services at minimum cost</PricingCardText>
 									
 									
      
@@ -258,6 +258,9 @@ const getEthereumObject = () => window.ethereum;
 										Vote Here
 										
 										</Button>
+										
+
+									
 	
     								
 								</PricingCardInfo>
@@ -292,7 +295,22 @@ const getEthereumObject = () => window.ethereum;
 			</div>
 		</button>
 		</a>:""}
-		
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<a href="	https://testnets.opensea.io/assets/goerli/0x846EE7F5C27345340505b53fCaF931b2A075A10a/0">
+		<Button >
+									
+								
+
+									See Your NFT
+								
+										
+										</Button>
+										</a>
 		
 
 				</PricingWrapper>
