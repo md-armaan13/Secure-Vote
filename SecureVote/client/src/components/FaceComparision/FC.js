@@ -1,74 +1,80 @@
-import React from 'react';
-import { Heading } from '../../globalStyles';
-import { IconContext } from 'react-icons/lib';
-import { WebcamCapture } from '../Webcam/Webcam';
-import './FCButton.css';
+import React, { useEffect, useState } from "react";
+import { Heading } from "../../globalStyles";
+import { IconContext } from "react-icons/lib";
+import { WebcamCapture } from "../Webcam/Webcam";
+import "./FCButton.css";
+import ClipLoader from "react-spinners/ClipLoader";
 
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 // import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 
 import {
-    FaceSection,
-    FaceWrapper,
-    FaceContainer,
-    FaceCardInfo,
-    FaceCard,
-    Button,
-} from './FCStyles';
+  FaceSection,
+  FaceWrapper,
+  FaceContainer,
+  FaceCardInfo,
+  FaceCard,
+  Button,
+} from "./FCStyles";
 
-import Particle2 from '../Particle2';
-
-
-
-
+import Particle2 from "../Particle2";
 
 //const getEthereumObject = () => window.ethereum;
 
-
 function FC() {
-    return (
+  
+    const[loading,SetLoading] = useState(false);
 
-        <IconContext.Provider value={{ color: '#a9b3c1', size: '1rem' }}>
-            <Particle2 />
-            <FaceSection id="Face">
+    useEffect(() => {
+      SetLoading(true)
+      setTimeout(() => {
+        SetLoading(false)
 
-                <FaceWrapper>
-                    <Heading >Face Comparsion</Heading>
-                    <br />
-                    <br/>
-                    <br/>
+      }, 2000)
 
-                    <FaceContainer>
-                        <FaceCard >
-                            <FaceCardInfo>
-                                <WebcamCapture />
-                            </FaceCardInfo>
-                        </FaceCard>
-                    </FaceContainer>
-                    <br />
+    }, [])
+    
 
-                </FaceWrapper>
+  const Face = () => {};
+  return (
+    <IconContext.Provider value={{ color: "#a9b3c1", size: "1rem" }}>
+      <Particle2 />
+      <FaceSection id="Face">
+        <FaceWrapper>
+          <Heading>Face Comparsion</Heading>
+          <br />
+          <br />
+          <br />
 
-                <Link to="/pricing">
-                <div className='btn-div'>
-                <button class="btn-68">Proceed</button>
-
+          <FaceContainer>
+            <FaceCard>
+              <FaceCardInfo>
+                <div className="style">
+                {loading?
+                <ClipLoader
+                  loading={loading}
+                  size={150}
+                  aria-label="Loading Spinner"
+                  data-testid="loader"
+                />
+                :
+                <WebcamCapture />
+                 }
                 </div>
+              </FaceCardInfo>
+            </FaceCard>
+          </FaceContainer>
+          <br />
+        </FaceWrapper>
 
-                
-
-                           
-
-                            </Link> 
-
-
-
-            </FaceSection>
-
-        </IconContext.Provider>
-        
-
-    );
+        <Link to="/pricing">
+          <div className="btn-div" onClick={Face}>
+            <button class="btn-68">Proceed</button>
+          </div>
+        </Link>
+      </FaceSection>
+    </IconContext.Provider>
+  );
 }
 export default FC;
