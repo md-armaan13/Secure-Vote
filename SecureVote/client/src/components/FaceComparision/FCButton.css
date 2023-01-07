@@ -137,3 +137,9 @@
     display: flex;
     justify-content: right;
 }
+
+.style{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
