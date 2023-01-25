@@ -8,13 +8,16 @@ const userSchema= new  mongoose.Schema({
             unique: true
         },
 
-        password:{
-            type: String,
-            required: true
-        },
-        name:{
+        // password:{
+        //     type: String,
+        //     required: true
+        // },
+        // name:{
+        //     type : String,
+        //     required: true
+        // }
+        voterId :{
             type : String,
-            required: true
         }
 },{
     timestamps: true
